@@ -1,0 +1,9 @@
+c:\users\admin\documents\visual studio 2017\Projects\Exercise1\Exercise1\bin\Debug\netcoreapp1.0\Exercise1.deps.json
+c:\users\admin\documents\visual studio 2017\Projects\Exercise1\Exercise1\bin\Debug\netcoreapp1.0\Exercise1.runtimeconfig.json
+c:\users\admin\documents\visual studio 2017\Projects\Exercise1\Exercise1\bin\Debug\netcoreapp1.0\Exercise1.runtimeconfig.dev.json
+c:\users\admin\documents\visual studio 2017\Projects\Exercise1\Exercise1\bin\Debug\netcoreapp1.0\Exercise1.dll
+c:\users\admin\documents\visual studio 2017\Projects\Exercise1\Exercise1\bin\Debug\netcoreapp1.0\Exercise1.pdb
+c:\users\admin\documents\visual studio 2017\Projects\Exercise1\Exercise1\obj\Debug\netcoreapp1.0\Exercise1.AssemblyInfo.cs
+c:\users\admin\documents\visual studio 2017\Projects\Exercise1\Exercise1\obj\Debug\netcoreapp1.0\Exercise1.dll
+c:\users\admin\documents\visual studio 2017\Projects\Exercise1\Exercise1\obj\Debug\netcoreapp1.0\Exercise1.pdb
+C:\Users\Admin\documents\visual studio 2017\Projects\Exercise1\Exercise1\obj\Debug\netcoreapp1.0\Exercise1.csprojResolveAssemblyReference.cache

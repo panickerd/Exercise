@@ -1,0 +1,32 @@
+﻿@Model  Exercise1.Models.SubCategoryModel
+
+@{
+    ViewBag.Title = "Update";
+    SelectList list = ViewBag.CategoryNames;
+}
+
+@using (Html.BeginForm("SubCategory", "SubCategory", new { id = Model.Id, name = Model.Name, categoryid = Model.SubCategoryId }, FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Category Model</legend>
+
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+        <div class="editor-label">
+            @Html.DropDownListFor(model => model.CategoryId, list, list.Where(o => o.Value == Model.categoryid))
+        </div>
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
